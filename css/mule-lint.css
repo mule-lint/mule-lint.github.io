@@ -1,0 +1,227 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 62.5%
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* Margin bottom by footer height */
+  margin-bottom: 8.5rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -.1rem;
+  color: #0096b2;
+}
+
+h1 {
+  margin: 2rem 0 2.4rem 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 1.8rem 0 2rem 0;
+}
+
+h5, h6, .nav, .bottom-nav {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 500;
+  color: #0096b2;
+}
+
+h6 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+p {
+  font-weight: 300;
+  color: #333;
+}
+
+blockquote {
+  font-weight: 400;
+  font-style: italic;
+  color: #777;
+}
+
+.quote-attribution {
+  text-align: left;
+  font-style: normal;
+  display: block;
+}
+
+.navbar-default {
+  margin-bottom: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.top-bottom-pad {
+  padding: 6rem 0;
+}
+
+.top-pad {
+  padding: 6rem 0 0 0;
+}
+
+.bottom-pad {
+  padding: 0 0 6rem 0;
+}
+
+.menu-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.main-content p,
+address {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+  color: #777;
+}
+
+.index-main-background {
+  background: #000;
+  background-image: url(/images/index-main-background.png),
+  radial-gradient(circle, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.25));
+
+  background-position: center center !important;
+  background-size: 100% !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.index-second-background {
+  background: rgba(0, 150, 178, 0.8);
+}
+
+.index-lede-1 {
+  padding-top: 25vh;
+  min-height: 100vh;
+}
+
+.index-lede-1 h1 {
+  font-size: 5.5rem;
+  font-weight: 100;
+  margin-bottom: 2.5em;
+}
+
+.index-lede-1 h1,
+.index-lede-1 p,
+.index-lede-2 p {
+  text-shadow: 0 0 1px rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+}
+
+.index-lede-1 p,
+.index-lede-2 p {
+  font-size: 2.8rem;
+  margin-bottom: 4.2rem;
+}
+
+p.index-lede-question {
+  font-weight: bolder;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.alternating-row {
+  background-color: #f5f6f7;
+}
+
+.row {
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+}
+
+.navbar-brand {
+  padding: 1rem;
+}
+
+.navbar-nav {
+  font-size: 1.6rem;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #cacaca;
+}
+
+.bold-dot {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+}
+
+.thoughts {
+  font-style: italic;
+}
+
+.contribute-projects ul {
+  list-style: circle;
+  padding: 0 0 0 1.2rem;
+}
+
+.contribute-projects li {
+  margin: 0;
+}
+
+.contribute-projects p {
+  font-size: 1.6rem;
+  color: #444;
+}
+
+.contribute-heading {
+  text-align: left;
+}
+
+.center-heading {
+  text-align: center;
+}
+
+.book-lede {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8.5rem;
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.footer hr {
+  margin: 1rem 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 0 2rem 0 0;
+}
