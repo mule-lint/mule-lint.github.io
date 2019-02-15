@@ -8,10 +8,33 @@ layout: page
       <div class="col-md-12">
         <h1>Mule Lint</h1>
 
-        <p>Mule List is a small personal project that was built to scratch an itch.
-        Others continue to find use from it and features are slowly rolling out.</p>
+        <p>The mule-lint application is an open source project to provide basic
+        static analysis checking of certain elements of a Mule Integration
+        Application. This is a growing concern and a project has been spun up
+        to help fill this gap. This open source project was started by Chad
+        Gorshing, an Independent MuleSoft Certified Consultant (not an employee
+        of MuleSoft, but has partnered on multiple occasions), and features are
+        still being developed.</p>
 
-        <p>We would love to hear what features you would like next by opening an issue on <a href="https://github.com/nuisto/mule-lint/issues">Github</a>.</p>
+        <p>There are "rules" that need to be checked that have specific use
+        cases and a predefined rules can not be already created. So as a guide,
+        here are a few things to keep in mind on what could fit for your
+        business use cases.</p>
+
+        <p>Many "rules" are still subjective and we continually are learning
+        what rules can easily work and be a good foundation for others to
+        follow.</p>
+
+        <p>Currently this project will not cause a build failure, but only
+        provide information for others to act upon. Teams will need to decide
+        for themselves what constitutes a failure for their cases.  Just
+        because a rule is "broken" once does not necessarily warrant a build or
+        deployment failure.  We feel that this is up the team to decide what
+        level is good for them to proceed (if any at all).</p>
+
+        <p>We would love to hear what features you would like next by opening an
+        issue on <a href="https://github.com/nuisto/mule-lint/issues">Github</a>.
+        </p>
       </div>
     </div>
   </div>
