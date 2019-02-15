@@ -24,6 +24,25 @@ layout: page
         <p>Many "rules" are still subjective and we continually are learning
         what rules can easily work and be a good foundation for others to
         follow.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="full-width top-bottom-pad alternating-row">
+  <div class="container main-content">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="contribute-heading">Workflow</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+      </div>
+
+      <div class="col-md-9">
+        <h3>Running as part of your build</h3>
 
         <p>Currently this project will not cause a build failure, but only
         provide information for others to act upon. Teams will need to decide
@@ -41,29 +60,6 @@ layout: page
 </div>
 
 <!--
-<div class="full-width top-bottom-pad alternating-row">
-  <div class="container main-content">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="contribute-heading">Participate</h1>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-3">
-      </div>
-
-      <div class="col-md-9">
-        <h3>Become a Contributor</h3>
-
-        <p>Join <a href="https://github.com/rubinius/rubinius/graphs/contributors">over 400 people</a> who have contributed their time and expertise to building Rubinius. Whether you code, design, write, tutor, mentor, research, or dabble, there is an opportunity to <a href="mailto:contact@rubinius.com?subject=How can I help contribute to Rubinius">add your mark</a> to Rubinius.</p>
-
-        <p>Open source projects need diverse help but have difficulty attracting participation from people who don't view coding as their primary activity. Business, marketing, writing and communication, design, and teaching skills are valued highly. Even if you're unsure how you can help, but Rubinius sounds like an exciting project, <a href="mailto:contact@rubinius.com?subject=I'd like to help Rubinius">let us know</a>.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="full-width top-bottom-pad">
   <div class="container main-content">
     <div class="row">
