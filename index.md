@@ -16,6 +16,8 @@ layout: page
         of MuleSoft, but has partnered on multiple occasions), and features are
         still being developed.</p>
 
+        <p>Rules are intended to be re-usable across many teams, where as the options could be team specific (files to ignore, dictionary)</p>
+
         <p>There are "rules" that need to be checked that have specific use
         cases and a predefined rules can not be already created. So as a guide,
         here are a few things to keep in mind on what could fit for your
