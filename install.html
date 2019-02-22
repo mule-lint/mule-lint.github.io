@@ -1,0 +1,137 @@
+---
+layout: page
+---
+
+<section>
+  <div class="full-width top-pad">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <p><strong>The current Mule Lint release is version
+            {% for release in site.data.releases limit:1 %}
+              {{ release.version }}.
+            {% endfor %}
+            If you are <a href="https://github.com/mule-lint/mule-lint/issues/">filing an issue</a>, please ensure you are running this version.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="full-width bottom-pad">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="packages">Running Mule Lint</h1>
+
+          <p></p>
+
+          <h2 id="docker">Maven</h2>
+
+          <p>Mule Lint provides <a
+            href="https://github.com/mule-lint/mule-lint-maven-plugin">maven</a>
+          support by a plugin that can be tied into your normal build. The
+          plugin is kept up with each release so as not to cause confusion with
+          different versions. To use the maven plugin, follow these steps:
+
+<pre>
+  <code>
+&lt;plugin>
+  &lt;groupId>org.nuisto&lt;/groupId>
+  &lt;artifactId>mule-lint-maven-plugin&lt;/artifactId>
+  &lt;version>${mule.lint.version}&lt;/version>
+  &lt;executions>
+    &lt;execution>
+      &lt;id>runit&lt;/id>
+      &lt;phase>compile&lt;/phase>
+      &lt;goals>
+        &lt;goal>analyze-mule&lt;/goal>
+      &lt;/goals>
+    &lt;/execution>
+  &lt;/executions>
+  &lt;configuration>
+    &lt;dictionary>dictionary.txt&lt;/dictionary>
+    &lt;rules>rules.txt&lt;/rules>
+    &lt;sources>src/main/app&lt;/sources>
+    &lt;output>results.json&lt;/output>
+    &lt;excludes>
+      &lt;exclude>**/foo/*.xml&lt;/exclude>
+      &lt;exclude>**/bar/*.xml&lt;/exclude>
+    &lt;/excludes>
+  &lt;/configuration>
+&lt;/plugin>
+  </code>
+</pre>
+
+<p>Now you can execute the compile stage (or even just `mvn package`) and the
+maven plugin will run:
+<pre>
+  <code>
+$ mvn clean compile
+...
+...
+[INFO] --- maven-compiler-plugin:3.6.2:compile (default-compile) @ mule-lint-project-example ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- mule-lint-maven-plugin:0.6.0-SNAPSHOT:analyze-mule (runit) @ mule-lint-project-example ---
+[INFO] Found 2 files
+[INFO] Found 2 infractions.
+...
+...
+  </code>
+</pre>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="full-width top-bottom-pad alternating-row">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="other">Command Line</h2>
+
+          <p>Mule Lint itself provides jar files so devs can use any kind of
+          tools to initiate checks against the projects. To install Mule Lint
+          on your machine, follow these steps:
+
+<pre>
+  <code>
+$ step 1
+$ step 2
+$ step 3
+  </code>
+</pre>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="full-width top-bottom-pad">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="source-code">Source Code</h2>
+
+          <p>Source code downloads are available for the following releases:</p>
+
+          <ul class="release-source">
+            {% for release in site.data.releases limit:4 %}
+              <li>
+                <p><a href="{{ site.data.urls.s3_protocol }}{{ site.data.urls.s3_releases_prefix }}{{ site.data.urls.s3_base_url }}{{ site.data.urls.s3_release_path }}-{{ release.version }}.tar.bz2">
+                  {{ release.version }} ({{ release.date }})</a></p>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
