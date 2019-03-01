@@ -35,7 +35,7 @@ layout: page
   <div class="container main-content">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="contribute-heading">Workflow</h1>
+        <h1 class="section-heading">Workflow</h1>
       </div>
     </div>
 
