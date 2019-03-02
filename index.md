@@ -61,22 +61,21 @@ layout: page
   </div>
 </div>
 
-<!--
 <div class="full-width top-bottom-pad">
   <div class="container main-content">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="contribute-heading">Sponsor</h1>
+        <h1 class="section-heading">Complexity</h1>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-9">
-        <h3>Employee Contributions</h3>
+        <h3>Flow Size</h3>
 
-        <p>Many companies have discovered that providing employees with some time to pursue an interesting idea can pay big dividends or even spawn entirely new products.</p>
+        <p>If you have been a part of a Mule project for a lenght of time, then I'm sure you have ran into flows that were just too big and needed to be broken down. This makes things easier for testing, understanding by others and your future self, follow single responsibility and so on.</p>
 
-        <p>If you sponsor your employee's work on open source projects and would like to contribute to Rubinius, <a href="mailto:contact@rubinius.com?subject=Sponsoring employee contributions to Rubinius">tell us about it</a> so we can give your company and employee the credit they deserve.</p>
+        <p>How can we bring some of these well known metrics into the Mule world, after all <a href="https://confluex.com/blog/integration-software-is-software/">Integration Software is Software</a>. Mule poses an interesting spin on this topic</p>
       </div>
 
       <div class="col-md-3">
@@ -116,107 +115,12 @@ layout: page
     </div>
   </div>
 </div>
-
-<div class="full-width top-bottom-pad alternating-row">
-  <div class="container main-content">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="contribute-heading">Fund</h1>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <h3>Specific Rubinius Projects</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-8">
-        <p>Rubinius is an extensive project composed of many components. We prioritize features based on what we know about how useful they can be. If there are features that would be particularly valuable to your business, <a href="mailto:contact@rubinius.com?subject=Funding specific Rubinius projects">let's discuss</a> how you might fund focused work on those features. You agree that the work be contributed to Rubinius and your business would receive prominent recognition for the contribution in <a href="http://book.rubinius.com">the Rubinius book</a>.</p>
-
-        <p>Rubinius is pursing ambitious advances in the utility of programming languages and applications. Various components that significantly advance the Rubinius vision would benefit from funding.</p>
-      </div>
-
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Rubinius Projects</h3>
-          </div>
-
-          <div class="panel-body contribute-projects">
-            <ul>
-              <li><p>next-generation JIT framework</p></li>
-              <li><p>thread-local, isolatable memory heaps</p></li>
-              <li><p>object graph analysis tools</p></li>
-              <li><p>machine learning applied to program execution and evolution</p></li>
-              <li><p>advanced instruction set</p></li>
-              <li><p>interoperable type systems</p></li>
-              <li><p>program visualization</p></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="full-width top-bottom-pad">
-  <div class="container main-content">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="contribute-heading">Invest</h1>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4">
-      </div>
-
-      <div class="col-md-8">
-        <h3>Support and Professional Services Contract</h3>
-
-        <p>Wisely applying your scarcest resource, your employees' time, is essential for business success. Ensuring your employees have the support they need to do their best work is also critical.</p>
-
-        <p>Whether you are maintaining existing applications or have new product development planned, <a href="mailto:contact@rubinius.com?subject=Support or professional services contract">find out</a> how a Rubinius support or professional services contract can help your business.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <h3>Architecture, Process, and System Migration</h3>
-
-        <p>From monolithic application architectures to microservices, from legacy IT infrastructure to cloud, containers, and serverless compute, the pace of technology change is accelerating. Staying current is essential to staying competitive. Yet this constant march forward should not come at the significant cost of discarding investments that are still providing value. Applications and infrastructure should be <em>evolving</em>, not merely getting replaced.</p>
-
-        <p></p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4">
-      </div>
-
-      <div class="col-md-8">
-        <h3>Cofounder</h3>
-
-        <p>Empowerment is fundamental to the Rubinius philosophy. Empowerment is providing the means to solve our own problems and, at the same time, working to replace structures that disempower.</p>
-
-        <p>Rubinius, Inc seeks cofounders from diverse and under-represented groups with experience in or deep dedication to learning business, marketing, teaching, partnerships, and technology.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <h3>VC Investment</h3>
-
-        <p>The intersection of connected devices, machine learning and artificial intelligence, cloud infrastructure, and programming languages promise extensive changes in the way software is built and used. Conversational interfaces and autonomous will dominate.</p>
-
-        <p>Existing programming languages and methods of building software primtive, costly, and ill-suited to the present and future software requirements, which involve distribution, resilience, rapid change, and extensive context.</p>
-
-        <p></p>
-      </div>
-    </div>
-  </div>
-</div>
+<!--
+Possible other ideas
+Getting started
+Next Steps or Advanced Guide
+Main concepts
+Contributing
+FAQ
 
 -->
