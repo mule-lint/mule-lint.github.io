@@ -71,11 +71,14 @@ layout: page
 
     <div class="row">
       <div class="col-md-9">
-        <h3>Flow Size</h3>
+        <h3>Cyclomatic Complexity</h3>
 
-        <p>If you have been a part of a Mule project for a lenght of time, then I'm sure you have ran into flows that were just too big and needed to be broken down. This makes things easier for testing, understanding by others and your future self, follow single responsibility and so on.</p>
+        <p>If you have been a part of a Mule project for a length of time, then I'm sure you have ran into flows that were just too big and needed to be broken down. This makes things easier for testing, understanding by others and your future self, follow single responsibility and so on.</p>
 
-        <p>How can we bring some of these well known metrics into the Mule world, after all <a href="https://confluex.com/blog/integration-software-is-software/">Integration Software is Software</a>. Mule poses an interesting spin on this topic</p>
+        <p>How can we bring some of these well known metrics into the Mule world, after all <a href="https://confluex.com/blog/integration-software-is-software/">Integration Software is Software</a>. Mule poses an interesting spin on this topic with
+        different message processors; filters, flow-refs, DataWeave,
+        components (Java classes).
+        </p>
       </div>
 
       <div class="col-md-3">
@@ -83,39 +86,23 @@ layout: page
     </div>
 
     <div class="row">
-      <div class="col-md-12">
-        <h3>The Rubinius Book</h3>
-
-        <p>The forms of communicating knowledge are expanding tremendously with the Internet and the rich digital media it enables. Even so, books remain one of the most effective ways to organize information for sharing.</p>
-
-        <p>The Rubinius book is an ambitious project to completely document the Rubinius platform, development approach, community social structure, problem solving, and experimentation with programming languages. Sponsoring Rubinius book content provides one of the highest returns in a virtuous circle of learning and building, and <a href="mailto:contact@rubinius.com?subject=Sponsoring Rubinius book content">your sponsorship</a> would receive prominent recognition in the book.</p>
-      </div>
 
       <div class="col-md-3">
       </div>
-
       <div class="col-md-9">
-        <p>Academia and industry have different goals. Academia prioritize novelty. Since big ideas are few, this leads to specialization ond then compartmentalization. Business must be profitable to exist, so industry prioritizes working systems that generate revenue. These systems are rarely novel and tend quickly toward complexity.</p>
+        <h3>We Aren't There Yet</h3>
 
-        <p>The Rubinius book balances these opposed goals by documenting a complete, complex, working system, while encouraging focused, specialized learning or research.</p>
+        <p>We don't have a solution for this, but is something we are discussing with various developers and consultants we have wide experience we can learn from. We are very interested in getting feedback from the community as well. As things progress we will be creating technical documentation and linking to it on this site.</p>
+
       </div>
+
     </div>
 
-    <div class="row">
-      <div class="col-md-8">
-        <h3>Interns and Student Projects</h3>
-
-        <p>Learning to code is becoming increasingly important, and not merely for a career in software development. As all professions use software more, and as software becomes more controllable through APIs (application programming interfaces), there is more opportunity or need to write code.</p>
-
-        <p>One of the focuses of Rubinius is learning about programming systems. It provides an excellent opportunity for an intern or student to gain practical experience with a complete industrial system like one they would encounter in a job versus only an academic research system. You can sponsor one of your interns to work on Rubinius or <a href="mailto:contact@rubinius.com?subject=Sponsoring an intern or student">work with us</a> to find a code school or university student to sponsor.</p>
-      </div>
-
-      <div class="col-md-4">
-      </div>
-    </div>
   </div>
 </div>
+
 <!--
+See git history on other ways to align the text and use col-md-8 to tighten up the paragraphs
 Possible other ideas
 Getting started
 Next Steps or Advanced Guide
