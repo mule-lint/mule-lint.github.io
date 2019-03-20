@@ -25,7 +25,8 @@ layout: page
 
         <p>Many "rules" are still subjective and we continually are learning
         what rules can easily work and be a good foundation for others to
-        follow.</p>
+        follow. As these patterns are discovered they will in turn be used
+        to provide a Low/Medium/High ranking similar to other lint applications.</p>
       </div>
     </div>
   </div>
