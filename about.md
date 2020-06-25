@@ -8,7 +8,7 @@ layout: page
       <div class="col-md-12">
         <h1>Mule Lint</h1>
 
-        <p>Mule List is a small personal project that was built to scratch an itch.
+        <p>Mule Lint is a small personal project that was built to scratch an itch.
         Others continue to find use from it and features are slowly rolling out.</p>
 
         <p>We would love to hear what features you would like next by opening an issue on <a href="https://github.com/nuisto/mule-lint/issues">Github</a>.</p>
