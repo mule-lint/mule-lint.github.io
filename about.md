@@ -11,7 +11,7 @@ layout: page
         <p>Mule Lint is a small personal project that was built to scratch an itch.
         Others continue to find use from it and features are slowly rolling out.</p>
 
-        <p>We would love to hear what features you would like next by opening an issue on <a href="https://github.com/nuisto/mule-lint/issues">Github</a>.</p>
+        <p>We would love to hear what features you would like next by opening an issue on <a href="https://github.com/mule-lint/mule-lint/issues">Github</a>.</p>
       </div>
     </div>
   </div>

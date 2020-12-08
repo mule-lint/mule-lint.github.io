@@ -55,7 +55,7 @@ layout: page
         level is good for them to proceed (if any at all).</p>
 
         <p>We would love to hear what features you would like next by opening an
-        issue on <a href="https://github.com/nuisto/mule-lint/issues">Github</a>.
+        issue on <a href="https://github.com/mule-lint/mule-lint/issues">Github</a>.
         </p>
       </div>
     </div>
