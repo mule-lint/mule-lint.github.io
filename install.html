@@ -119,13 +119,16 @@ $ TODO
           <p>Source code downloads are available for the following releases:</p>
 
           <ul class="release-source">
-            {% for release in site.data.releases limit:4 %}
+            {% for release in site.data.releases limit:6 %}
               <li>
-                <p><a href="{{ site.data.urls.s3_protocol }}{{ site.data.urls.s3_releases_prefix }}{{ site.data.urls.s3_base_url }}{{ site.data.urls.s3_release_path }}-{{ release.version }}.tar.bz2">
+                <p><a href="https://github.com/mule-lint/mule-lint/releases/tag/v{{ release.version }}">
                   {{ release.version }} ({{ release.date }})</a></p>
               </li>
             {% endfor %}
           </ul>
+          <p>
+            View all releases on <a href="https://github.com/mule-lint/mule-lint/releases">Mule Lint's release page</a>.
+          </p>
         </div>
       </div>
     </div>
