@@ -35,34 +35,32 @@ layout: page
           plugin is kept up with each release so as not to cause confusion with
           different versions. To use the maven plugin, follow these steps:
 
-<pre>
-  <code>
-&lt;plugin>
-  &lt;groupId>org.nuisto&lt;/groupId>
-  &lt;artifactId>mule-lint-maven-plugin&lt;/artifactId>
-  &lt;version>${mule.lint.version}&lt;/version>
-  &lt;executions>
-    &lt;execution>
-      &lt;id>runit&lt;/id>
-      &lt;phase>compile&lt;/phase>
-      &lt;goals>
-        &lt;goal>analyze-mule&lt;/goal>
-      &lt;/goals>
-    &lt;/execution>
-  &lt;/executions>
-  &lt;configuration>
-    &lt;dictionary>dictionary.txt&lt;/dictionary>
-    &lt;rules>rules.txt&lt;/rules>
-    &lt;sources>src/main/app&lt;/sources>
-    &lt;output>results.json&lt;/output>
-    &lt;excludes>
-      &lt;exclude>**/foo/*.xml&lt;/exclude>
-      &lt;exclude>**/bar/*.xml&lt;/exclude>
-    &lt;/excludes>
-  &lt;/configuration>
-&lt;/plugin>
-  </code>
-</pre>
+{% highlight xml %}
+<plugin>
+  <groupId>org.nuisto</groupId>
+  <artifactId>mule-lint-maven-plugin</artifactId>
+  <version>${mule.lint.version}</version>
+  <executions>
+    <execution>
+      <id>runit</id>
+      <phase>compile</phase>
+      <goals>
+        <goal>analyze-mule</goal>
+      </goals>
+    </execution>
+  </executions>
+  <configuration>
+    <dictionary>dictionary.txt</dictionary>
+    <rules>rules.txt</rules>
+    <sources>src/main/app</sources>
+    <output>results.json</output>
+    <excludes>
+      <exclude>**/foo/*.xml</exclude>
+      <exclude>**/bar/*.xml</exclude>
+    </excludes>
+  </configuration>
+</plugin>
+{% endhighlight %}
 
 <p>Now you can execute the compile stage (or even just `mvn package`) and the
 maven plugin will run:
